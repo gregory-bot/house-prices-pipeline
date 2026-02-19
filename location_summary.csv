@@ -1,151 +1,145 @@
-location,avg_price,avg_price_per_bedroom,count
-"31 Othaya Rd, Kileleshwa, Nairobi",24500000.0,6125000.0,1
-"Academy Road Nairobi, Karen, Nairobi",340000.0,73333.33333333333,3
-"Apple Cross Rd Nairobi, Lavington, Nairobi",220000000.0,44000000.0,2
-"Argwings Kodhek Rd Kilimani, Kilimani, Nairobi",55000.0,55000.0,2
-"Argwings Kodhek Rd Nairobi, Lavington, Nairobi",220000.0,110000.0,1
-"Banda Ln Nairobi, Karen, Nairobi",160000.0,80000.0,1
-"Bogani Rd Nairobi, Karen, Nairobi",343750.0,74250.0,4
-"Chalbi Dr Maziwa, Lavington, Nairobi",70000000.0,14000000.0,1
-"Comboni Cl Nairobi, Karen, Nairobi",45000.0,45000.0,1
-"Dennis Pritt Road Kilimani, Kilimani, Nairobi",350000.0,,1
-"E Church Rd Nairobi, Westlands, Nairobi",215000.0,43000.0,4
-"Elgeyo Rd Kilimani, Kilimani, Nairobi",340000.0,,1
-"Embakasi, Nairobi",85000000.0,,2
-"Garden Estate, Nairobi",68000000.0,22666666.666666668,1
-"Gate 10 Langata N Rd, Karen, Nairobi",220000.0,110000.0,1
-"Gatundu Rd Kileleshwa, Kileleshwa, Nairobi",9483333.333333334,5205555.555555555,6
-"General Mathenge Drive Spring Valley, Westlands, Nairobi",222500.0,74375.0,8
-"Gigiri Kitisuru, Gigiri, Nairobi",775000.0,193750.0,1
-"Gigiri, Nairobi",485000.0,94083.33333333333,4
-"Hardy Nairobi, Karen, Nairobi",260000.0,86666.66666666667,1
-"Isaac Gathanju Road Maziwa, Lavington, Nairobi",69000000.0,13800000.0,2
-"JMWW+F2X Forest Line Road, Karen, Nairobi",450000.0,90000.0,1
-"JPMV+X4X Ushirika Rd, Karen, Nairobi",250000.0,50000.0,1
-"JQR5+4H2 Unnamed Road, Karen, Nairobi",500000.0,83333.33333333333,1
-"Jacob Chege Dr Nairobi, Karen, Nairobi",153333.33333333334,38750.0,3
-"Jalaram Rd Spring Valley, Westlands, Nairobi",23250000.0,6625000.0,4
-"James Gichuru Road Maziwa, Lavington, Nairobi",230000.0,76666.66666666667,4
-"Karen Brooks Rd Nairobi, Karen, Nairobi",150000.0,105000.0,2
-"Karen Hardy Langata, Karen, Nairobi",260000.0,86666.66666666667,1
-"Karen Karen, Karen, Nairobi",365714.28571428574,80761.90476190476,7
-"Karen Plains Rd Nairobi, Karen, Nairobi",550000.0,71428.57142857143,2
-"Karen, Nairobi",65763636.36363637,11701196.581196582,24
-"Karigacha Karen, Karen, Nairobi",250000.0,35714.28571428572,1
-"Kasarani, Nairobi",7100000.0,4100000.0,2
-"Kasarani, Sportsview, Nairobi",25000000.0,6250000.0,2
-"Kasuku Dr Nairobi, Karen, Nairobi",180000.0,60000.0,1
-"Kerarapon Drive Karen, Karen, Nairobi",200000.0,50000.0,1
-"Kiambu Rd Kiambu, Runda, Nairobi",35000000.0,8750000.0,2
-"Kiambu Road, Nairobi",20782352.94117647,7195588.235294118,9
-"Kileleshwa Nairobi, Kileleshwa, Nairobi",6153076.923076923,4250961.538461538,13
-"Kileleshwa, Nairobi",11879125.0,4588141.025641026,41
-"Kilimani Estate Kilimani, Kilimani, Nairobi",3269235.294117647,1992500.0,17
-"Kilimani Nairobi, Kilimani, Nairobi",10397500.0,5698750.0,4
-"Kilimani, Kilimani, Nairobi",6000000.0,6000000.0,3
-"Kilimani, Nairobi",8412945.454545455,3267419.1065292093,54
-"Kindaruma Rd Kilimani, Kilimani, Nairobi",55000.0,55000.0,2
-"Kirichwa Rd Kilimani, Kilimani, Nairobi",15060000.0,7530000.0,5
-"Kiserian, Nairobi",7500000.0,2500000.0,1
-"Kitengela, Nairobi",10161538.461538462,2902564.102564103,7
-"Kitisuru Nairobi, Kitisuru, Nairobi",493333.3333333333,113666.66666666667,3
-"Kitisuru, Nairobi",29916606.25,6494379.285714285,17
-"Kuwinda Rd Nairobi, Karen, Nairobi",350000.0,87500.0,1
-"Kyuna Rd Nairobi, Kyuna, Nairobi",375000.0,75000.0,2
-"Kyuna, Nairobi",29032500.0,5813750.0,4
-"Lang'ata, Nairobi",22000000.0,5500000.0,1
-"Langata N Rd Nairobi, Karen, Nairobi",250000.0,62500.0,1
-"Langata S Rd Nairobi, Karen, Nairobi",225000.0,51250.0,2
-"Lavington Kileleshwa, Lavington, Nairobi",10281733.333333334,3389680.0,3
-"Lavington, Lavington, Nairobi",120000.0,60000.0,1
-"Lavington, Nairobi",34062560.0,7497613.8211382115,69
-"Lavington, Valley Arcade, Nairobi",150000.0,75000.0,1
-"Link Rd Karen, Karen, Nairobi",250000.0,62500.0,1
-"Loresho Crescent Loresho, Loresho, Nairobi",430000.0,86000.0,3
-"Loresho, Nairobi",21349666.666666668,5328266.666666667,5
-"Lower Kabete Nairobi, Lower Kabete, Nairobi",1981333.3333333333,1675333.3333333333,3
-"Lower Kabete, Lower Kabete, Nairobi",4310000.0,4310000.0,1
-"Lower Kabete, Nairobi",51100000.0,11835333.333333332,5
-"Lower Plains Rd Nairobi, Karen, Nairobi",300000.0,100000.0,1
-"MMGP+586 Kerarapon Road, Karen, Nairobi",220000.0,110000.0,2
-"MMWG+P38 Karen, Karen, Nairobi",180000.0,45000.0,2
-"MPQ5+CG9 Karen, Karen, Nairobi",400000.0,80000.0,1
-"Mandera Rd Kileleshwa, Kileleshwa, Nairobi",160000.0,53333.333333333336,2
-"Marist Ln Nairobi, Karen, Nairobi",80000.0,26666.666666666668,2
-"Marula Ln Nairobi, Karen, Nairobi",135000.0,76000.0,4
-"Matundu Lane Spring Valley, Westlands, Nairobi",11350000.0,7850000.0,2
-"Miotoni Rd Karen, Karen, Nairobi",370000.0,79833.33333333333,3
-"Mlolongo, Nairobi",20000000.0,5000000.0,1
-"Mogotio Rd 23, Westlands, Nairobi",6800000.0,6800000.0,11
-"Mogotio Rd Nairobi, Westlands, Nairobi",11613333.333333334,6465555.555555555,6
-"Mogotio Rd, Westlands, Nairobi",23000000.0,7666666.666666667,1
-"Mogotio Rd, westlands, Westlands, Nairobi",23000000.0,7666666.666666667,1
-"Mombasa Road Nairobi, Syokimau, Nairobi",4124278.0,4000000.0,4
-"Mukinduri Rd Nairobi, Karen, Nairobi",150000.0,50000.0,1
-"Mukoma Rd Nairobi, Karen, Nairobi",276250.0,75833.33333333333,4
-"Muthaiga Nairobi, Muthaiga North, Nairobi",387000.0,193500.0,1
-"Muthaiga Nairobi, Muthaiga, Nairobi",194250.0,97125.0,2
-"Muthaiga, Nairobi",67153333.33333333,13449166.666666666,6
-"Muthangari Dr Nairobi, Westlands, Nairobi",26666666.666666668,8027777.777777777,3
-"Muthangari Dr, Westlands, Nairobi",24400000.0,8133333.333333333,1
-"Muthithi Rd Nairobi, Westlands, Nairobi",14266636.363636363,7032681.818181818,11
-"Nairobi Karen, Karen, Nairobi",150000.0,50000.0,1
-"Nairobi Nairobi County, Westlands, Nairobi",200000.0,40000.0,1
-"Nandi Rd Karen, Karen, Nairobi",550000.0,110000.0,1
-"Ndege Rd Nairobi, Karen, Nairobi",441666.6666666667,118750.0,6
-"Ngong Rd Karen, Karen, Nairobi",45000.0,18333.333333333336,2
-"Ngong, Nairobi",15750000.0,3487500.0,2
-"Njathaini Rd KE, Kiambu Road, Nairobi",35000000.0,8750000.0,3
-"Njathaini Rd KE, Runda, Nairobi",35000000.0,8750000.0,1
-"Nyari Kitisuru, Nyari, Nairobi",420000.0,90333.33333333334,5
-"Nyari, Nairobi",45296923.07692308,8592142.857142856,7
-"Nzohe Road Nairobi, Karen, Nairobi",450000.0,90000.0,3
-"Oloitoktok Rd Nairobi, Kileleshwa, Nairobi",90000.0,45000.0,1
-"Ololua Ridge Karen, Karen, Nairobi",400000.0,66666.66666666667,1
-"Ongata Rongai, Nairobi",24960000.0,1800000.0,3
-"Othaya Rd Nairobi, Kileleshwa, Nairobi",250000.0,62500.0,1
-"PQ2G+QH Kilimani, Kilimani, Nairobi",39500000.0,8900000.0,3
-"PQ4H+8MC Elgeyo Rd, Kilimani, Nairobi",47500000.0,10562500.0,2
-"PQ82+9RP Kabiro Rd, Karen, Nairobi",200000.0,50000.0,1
-"PQG6+5JP Chalbi Dr, Lavington, Nairobi",125000000.0,25000000.0,1
-"PQQJ+M66 Muthangari Dr, Westlands, Nairobi",24400000.0,8133333.333333333,8
-"Parklands Nairobi, Parklands, Nairobi",133333.33333333334,44444.44444444444,3
-"Parklands, Nairobi",8799090.909090908,2688030.3030303027,12
-"PostBank Building 2582, Karen, Nairobi",400000.0,100000.0,1
-"QQCP+69W Red Hill Dr, Nyari, Nairobi",400000.0,100000.0,1
-"QRXH+H9R Kiambu, Kiambu Road, Nairobi",360000.0,90000.0,2
-"RR6R+34H Kiambu Rd, Kiambu Road, Nairobi",220000.0,55000.0,1
-"Raphta Rd Nairobi, Westlands, Nairobi",252857.14285714287,64687.5,7
-"Rhapta Road Nairobi, Westlands, Nairobi",8848777.777777778,4433962.962962963,27
-"Rhapta Terraces Rhapta Road, Westlands, Nairobi",12391750.0,7607541.666666667,20
-"Rhino Park Rd Karen, Karen, Nairobi",338333.3333333333,55666.66666666667,3
-"Riara Rd Maziwa, Kilimani, Nairobi",17000000.0,6134833.333333334,10
-"Ridgeways, Fourways Junction, Nairobi",63433333.333333336,9072619.047619047,3
-"Ring Rd Parklands Nairobi, Westlands, Nairobi",14014285.714285715,7045238.095238096,7
-"Ring Rd Westlands Ln Nairobi, Westlands, Nairobi",115000.0,,1
-"Ring Road Kileleshwa Nairobi, Kileleshwa, Nairobi",5132000.0,3332500.0,10
-"Riverside Dr Nairobi, Riverside, Nairobi",13047500.0,6178333.333333334,10
-"Riverside, Nairobi",7172000.0,3066333.3333333335,11
-"Roselyn, Nairobi",12290666.666666666,2113666.6666666665,8
-"Roysambu, Nairobi",30150000.0,7546666.666666667,3
-"Runda Grove Kitisuru, Runda, Nairobi",300000.0,100000.0,2
-"Runda Kitisuru, Runda, Nairobi",7786421.052631579,1946140.3508771928,19
-"Runda, Nairobi",27194967.647058822,5326135.294117647,35
-"Sarit Centre Car Park Lower Kabete Rd, Westlands, Nairobi",70000.0,23333.333333333332,2
-"School Ln Spring Valley, Westlands, Nairobi",8911333.333333334,8911333.333333334,3
-"South C, Nairobi",29000000.0,7250000.0,2
-"Spring Valley Nairobi, Spring Valley, Nairobi",11807500.0,3914375.0,2
-"Spring Valley, Nairobi",10966111.111111112,2212324.074074074,10
-"Syokimau Nairobi, Syokimau, Nairobi",11500000.0,3833333.3333333335,1
-"Syokimau, Nairobi",19500000.0,3250000.0,2
-"Thigiri Ridge Rd Nairobi, Thigiri, Nairobi",612000.0,153000.0,2
-"Three D Ln Karen, Karen, Nairobi",100000.0,50000.0,1
-"Three-Dee Ln Karen, Karen, Nairobi",350000.0,70000.0,1
-"Tree Ln Nairobi, Karen, Nairobi",107500.0,90000.0,4
-"Westlands Highridge, Westlands, Nairobi",31293000.0,8932666.666666668,5
-"Westlands Rd Nairobi, Westlands, Nairobi",7000000.0,7000000.0,5
-"Westlands, Nairobi",24555245.28301887,6446241.239892184,54
-"Westlands, Westlands, Nairobi",18840555.555555556,7034629.62962963,18
-"Windy Ridge Karen, Karen, Nairobi",284000.0,71333.33333333334,5
-"Woodvale Grv Spring Valley, Westlands, Nairobi",225000.0,,1
-"Zimmerman, Mirema, Nairobi",35000000.0,8750000.0,1
+location,avg_price,median_price,median_bedrooms,avg_price_per_bedroom,median_price_per_bedroom,affordability_rank
+"ngong rd karen, karen, nairobi",45000.0,45000.0,2.5,18333.333333333336,18333.333333333336,1
+"sarit centre car park lower kabete rd, westlands, nairobi",70000.0,70000.0,3.0,23333.333333333332,23333.333333333332,2
+"marist ln nairobi, karen, nairobi",80000.0,80000.0,3.0,26666.666666666668,26666.666666666668,3
+"karigacha karen, karen, nairobi",250000.0,250000.0,7.0,35714.28571428572,35714.28571428572,4
+"ring rd westlands ln nairobi, westlands, nairobi",115000.0,115000.0,3.0,38333.333333333336,38333.333333333336,5
+"nairobi nairobi county, westlands, nairobi",200000.0,200000.0,5.0,40000.0,40000.0,6
+"e church rd nairobi, westlands, nairobi",215000.0,200000.0,5.0,43000.0,40000.0,7
+"parklands nairobi, parklands, nairobi",133333.33333333334,125000.0,3.0,44444.44444444444,41666.666666666664,8
+"mmwg+p38 karen, karen, nairobi",180000.0,180000.0,4.0,45000.0,45000.0,9
+"oloitoktok rd nairobi, kileleshwa, nairobi",90000.0,90000.0,2.0,45000.0,45000.0,10
+"comboni cl nairobi, karen, nairobi",45000.0,45000.0,1.0,45000.0,45000.0,11
+"marula ln nairobi, karen, nairobi",135000.0,65000.0,3.0,46333.333333333336,44333.333333333336,12
+"kerarapon drive karen, karen, nairobi",200000.0,200000.0,4.0,50000.0,50000.0,13
+"mukinduri rd nairobi, karen, nairobi",150000.0,150000.0,3.0,50000.0,50000.0,14
+"nairobi karen, karen, nairobi",150000.0,150000.0,3.0,50000.0,50000.0,15
+"jpmv+x4x ushirika rd, karen, nairobi",250000.0,250000.0,5.0,50000.0,50000.0,16
+"pq82+9rp kabiro rd, karen, nairobi",200000.0,200000.0,4.0,50000.0,50000.0,17
+"three d ln karen, karen, nairobi",100000.0,100000.0,2.0,50000.0,50000.0,18
+"langata s rd nairobi, karen, nairobi",225000.0,225000.0,4.5,51250.0,51250.0,19
+"mandera rd kileleshwa, kileleshwa, nairobi",160000.0,160000.0,3.0,53333.333333333336,53333.333333333336,20
+"jacob chege dr nairobi, karen, nairobi",153333.33333333334,165000.0,3.0,53611.1111111111,55000.0,21
+"argwings kodhek rd kilimani, kilimani, nairobi",55000.0,55000.0,1.0,55000.0,55000.0,22
+"rr6r+34h kiambu rd, kiambu road, nairobi",220000.0,220000.0,4.0,55000.0,55000.0,23
+"kindaruma rd kilimani, kilimani, nairobi",55000.0,55000.0,1.0,55000.0,55000.0,24
+"kasuku dr nairobi, karen, nairobi",180000.0,180000.0,3.0,60000.0,60000.0,25
+"lavington, lavington, nairobi",120000.0,120000.0,2.0,60000.0,60000.0,26
+"othaya rd nairobi, kileleshwa, nairobi",250000.0,250000.0,4.0,62500.0,62500.0,27
+"link rd karen, karen, nairobi",250000.0,250000.0,4.0,62500.0,62500.0,28
+"langata n rd nairobi, karen, nairobi",250000.0,250000.0,4.0,62500.0,62500.0,29
+"ololua ridge karen, karen, nairobi",400000.0,400000.0,6.0,66666.66666666667,66666.66666666667,30
+"raphta rd nairobi, westlands, nairobi",252857.14285714287,265000.0,4.0,69107.14285714286,66250.0,31
+"roysambu, nairobi",225000.0,225000.0,3.0,70000.0,70000.0,32
+"three-dee ln karen, karen, nairobi",350000.0,350000.0,5.0,70000.0,70000.0,33
+"windy ridge karen, karen, nairobi",284000.0,270000.0,3.0,71333.33333333334,60000.0,34
+"academy road nairobi, karen, nairobi",340000.0,350000.0,5.0,73333.33333333333,70000.0,35
+"bogani rd nairobi, karen, nairobi",343750.0,437500.0,5.0,74250.0,80500.0,36
+"general mathenge drive spring valley, westlands, nairobi",222500.0,225000.0,3.0,74375.0,72500.0,37
+"karen, nairobi",350000.0,325000.0,5.0,74791.66666666667,75000.0,38
+"ridgeways, fourways junction, nairobi",300000.0,300000.0,4.0,75000.0,75000.0,39
+"kyuna rd nairobi, kyuna, nairobi",375000.0,375000.0,5.0,75000.0,75000.0,40
+"woodvale grv spring valley, westlands, nairobi",225000.0,225000.0,3.0,75000.0,75000.0,41
+"lavington, valley arcade, nairobi",150000.0,150000.0,2.0,75000.0,75000.0,42
+"mukoma rd nairobi, karen, nairobi",276250.0,260000.0,4.0,75833.33333333333,65000.0,43
+"james gichuru road maziwa, lavington, nairobi",230000.0,230000.0,3.0,76666.66666666667,76666.66666666667,44
+"miotoni rd karen, karen, nairobi",370000.0,380000.0,5.0,79833.33333333333,76000.0,45
+"banda ln nairobi, karen, nairobi",160000.0,160000.0,2.0,80000.0,80000.0,46
+"mpq5+cg9 karen, karen, nairobi",400000.0,400000.0,5.0,80000.0,80000.0,47
+"karen karen, karen, nairobi",365714.28571428574,400000.0,5.0,80761.90476190476,80000.0,48
+"rhino park rd karen, karen, nairobi",338333.3333333333,350000.0,5.0,81555.55555555556,58333.333333333336,49
+"jqr5+4h2 unnamed road, karen, nairobi",500000.0,500000.0,6.0,83333.33333333333,83333.33333333333,50
+"kyuna, nairobi",376666.6666666667,300000.0,4.0,85000.0,75000.0,51
+"loresho crescent loresho, loresho, nairobi",430000.0,430000.0,5.0,86000.0,86000.0,52
+"hardy nairobi, karen, nairobi",260000.0,260000.0,3.0,86666.66666666667,86666.66666666667,53
+"karen hardy langata, karen, nairobi",260000.0,260000.0,3.0,86666.66666666667,86666.66666666667,54
+"kuwinda rd nairobi, karen, nairobi",350000.0,350000.0,4.0,87500.0,87500.0,55
+"nzohe road nairobi, karen, nairobi",450000.0,450000.0,5.0,90000.0,90000.0,56
+"qrxh+h9r kiambu, kiambu road, nairobi",360000.0,360000.0,4.0,90000.0,90000.0,57
+"jmww+f2x forest line road, karen, nairobi",450000.0,450000.0,5.0,90000.0,90000.0,58
+"tree ln nairobi, karen, nairobi",107500.0,120000.0,1.0,90000.0,95000.0,59
+"nyari kitisuru, nyari, nairobi",420000.0,400000.0,5.0,90333.33333333334,80000.0,60
+"gigiri, nairobi",485000.0,485000.0,5.0,94083.33333333333,97000.0,61
+"spring valley, nairobi",359333.3333333333,330000.0,4.0,94788.88888888889,110000.0,62
+"muthaiga nairobi, muthaiga, nairobi",194250.0,194250.0,2.0,97125.0,97125.0,63
+"runda, nairobi",422869.0909090909,370000.0,4.0,97594.11255411255,90000.0,64
+"runda grove kitisuru, runda, nairobi",300000.0,300000.0,3.0,100000.0,100000.0,65
+"lower plains rd nairobi, karen, nairobi",300000.0,300000.0,3.0,100000.0,100000.0,66
+"qqcp+69w red hill dr, nyari, nairobi",400000.0,400000.0,4.0,100000.0,100000.0,67
+"postbank building 2582, karen, nairobi",400000.0,400000.0,4.0,100000.0,100000.0,68
+"nyari, nairobi",482500.0,500000.0,5.0,100625.0,100000.0,69
+"karen brooks rd nairobi, karen, nairobi",150000.0,150000.0,1.5,105000.0,105000.0,70
+"mmgp+586 kerarapon road, karen, nairobi",220000.0,220000.0,2.0,110000.0,110000.0,71
+"argwings kodhek rd nairobi, lavington, nairobi",220000.0,220000.0,2.0,110000.0,110000.0,72
+"gate 10 langata n rd, karen, nairobi",220000.0,220000.0,2.0,110000.0,110000.0,73
+"nandi rd karen, karen, nairobi",550000.0,550000.0,5.0,110000.0,110000.0,74
+"elgeyo rd kilimani, kilimani, nairobi",340000.0,340000.0,3.0,113333.33333333333,113333.33333333333,75
+"kitisuru nairobi, kitisuru, nairobi",493333.3333333333,450000.0,4.0,113666.66666666667,112500.0,76
+"dennis pritt road kilimani, kilimani, nairobi",350000.0,350000.0,3.0,116666.66666666667,116666.66666666667,77
+"ndege rd nairobi, karen, nairobi",441666.6666666667,450000.0,4.0,118750.0,112500.0,78
+"roselyn, nairobi",335384.6153846154,420000.0,3.0,131153.84615384616,112500.0,79
+"karen plains rd nairobi, karen, nairobi",550000.0,550000.0,5.0,135714.2857142857,135714.2857142857,80
+"muthaiga, nairobi",584000.0,580000.0,4.0,139000.0,140000.0,81
+"thigiri ridge rd nairobi, thigiri, nairobi",612000.0,612000.0,4.0,153000.0,153000.0,82
+"muthaiga nairobi, muthaiga north, nairobi",387000.0,387000.0,2.0,193500.0,193500.0,83
+"gigiri kitisuru, gigiri, nairobi",775000.0,775000.0,4.0,193750.0,193750.0,84
+"runda kitisuru, runda, nairobi",2467176.470588235,450000.0,4.0,616274.5098039216,100000.0,85
+"kitisuru, nairobi",5093256.0,370000.0,4.0,1372805.4857142856,90000.0,86
+"lower kabete, nairobi",1833333.3333333333,1000000.0,5.0,1475555.5555555557,166666.66666666666,87
+"lower kabete nairobi, lower kabete, nairobi",1981333.3333333333,612000.0,4.0,1675333.3333333333,153000.0,88
+"parklands, nairobi",4579000.0,250000.0,3.0,1681833.3333333333,83333.33333333333,89
+"kilimani estate kilimani, kilimani, nairobi",3269235.294117647,180000.0,2.0,1964411.7647058824,180000.0,90
+"mombasa road nairobi, syokimau, nairobi",4124278.0,4125515.5,2.5,2041426.0,2041838.5,91
+"kiserian, nairobi",7500000.0,7500000.0,3.0,2500000.0,2500000.0,92
+"westlands, nairobi",6426989.010989011,258000.0,2.0,2513204.0816326533,100000.0,93
+"lavington, nairobi",7814022.988505747,400000.0,3.0,2633024.904214559,90000.0,94
+"kitengela, nairobi",10161538.461538462,8000000.0,3.0,2902564.102564103,2666666.6666666665,95
+"riverside, nairobi",7172000.0,200000.0,2.0,3066333.3333333335,100000.0,96
+"kilimani, nairobi",8412945.454545455,5900000.0,3.0,3231713.67003367,3500000.0,97
+"syokimau, nairobi",19500000.0,19500000.0,6.0,3250000.0,3250000.0,98
+"loresho, nairobi",13163857.142857144,549000.0,4.0,3279200.0,109800.0,99
+"ring road kileleshwa nairobi, kileleshwa, nairobi",5132000.0,6130000.0,2.0,3332500.0,3575000.0,100
+"lavington kileleshwa, lavington, nairobi",10281733.333333334,515200.0,5.0,3389680.0,103040.0,101
+"ngong, nairobi",15750000.0,15750000.0,4.5,3487500.0,3487500.0,102
+"kiambu road, nairobi",14486666.666666666,400000.0,4.0,3621666.6666666665,100000.0,103
+"syokimau nairobi, syokimau, nairobi",11500000.0,11500000.0,3.0,3833333.3333333335,3833333.3333333335,104
+"spring valley nairobi, spring valley, nairobi",11807500.0,11807500.0,3.5,3914375.0,3914375.0,105
+"kasarani, nairobi",7100000.0,7100000.0,2.0,4100000.0,4100000.0,106
+"kileleshwa, nairobi",10235000.0,8500000.0,3.0,4139423.076923077,5000000.0,107
+"kileleshwa nairobi, kileleshwa, nairobi",6153076.923076923,5110000.0,2.0,4250961.538461538,4605000.0,108
+"lower kabete, lower kabete, nairobi",4310000.0,4310000.0,1.0,4310000.0,4310000.0,109
+"rhapta road nairobi, westlands, nairobi",8848777.777777778,12300000.0,2.0,4433962.962962963,6150000.0,110
+"mlolongo, nairobi",20000000.0,20000000.0,4.0,5000000.0,5000000.0,111
+"gatundu rd kileleshwa, kileleshwa, nairobi",9483333.333333334,9000000.0,2.0,5205555.555555555,4500000.0,112
+"lang'ata, nairobi",22000000.0,22000000.0,4.0,5500000.0,5500000.0,113
+"kilimani nairobi, kilimani, nairobi",10397500.0,8250000.0,1.5,5698750.0,6125000.0,114
+"westlands highridge, westlands, nairobi",17866250.0,19200000.0,3.0,5853333.333333333,7566666.666666666,115
+"kilimani, kilimani, nairobi",6000000.0,6000000.0,1.0,6000000.0,6000000.0,116
+"31 othaya rd, kileleshwa, nairobi",24500000.0,24500000.0,4.0,6125000.0,6125000.0,117
+"riara rd maziwa, kilimani, nairobi",17000000.0,15300000.0,2.5,6134833.333333334,5933333.333333333,118
+"riverside dr nairobi, riverside, nairobi",13047500.0,13600000.0,2.0,6178333.333333334,6900000.0,119
+"kasarani, sportsview, nairobi",25000000.0,25000000.0,4.0,6250000.0,6250000.0,120
+"mogotio rd nairobi, westlands, nairobi",11613333.333333334,10300000.0,1.5,6465555.555555555,5850000.0,121
+"jalaram rd spring valley, westlands, nairobi",23250000.0,23250000.0,3.5,6625000.0,6625000.0,122
+"mogotio rd 23, westlands, nairobi",6800000.0,6800000.0,1.0,6800000.0,6800000.0,123
+"westlands rd nairobi, westlands, nairobi",7000000.0,7000000.0,1.0,7000000.0,7000000.0,124
+"muthithi rd nairobi, westlands, nairobi",14266636.363636363,10757000.0,2.0,7032681.818181818,6500000.0,125
+"westlands, westlands, nairobi",18840555.555555556,18605000.0,2.5,7034629.62962963,7000000.0,126
+"ring rd parklands nairobi, westlands, nairobi",14014285.714285715,13800000.0,2.0,7045238.095238096,6900000.0,127
+"pq2g+qh kilimani, kilimani, nairobi",28000000.0,28000000.0,4.0,7100000.0,7100000.0,128
+"south c, nairobi",29000000.0,29000000.0,4.0,7250000.0,7250000.0,129
+"kirichwa rd kilimani, kilimani, nairobi",15060000.0,14700000.0,2.0,7530000.0,7350000.0,130
+"rhapta terraces rhapta road, westlands, nairobi",12391750.0,12250000.0,2.0,7607541.666666667,7837500.0,131
+"mogotio rd, westlands, nairobi",23000000.0,23000000.0,3.0,7666666.666666667,7666666.666666667,132
+"mogotio rd, westlands, westlands, nairobi",23000000.0,23000000.0,3.0,7666666.666666667,7666666.666666667,133
+"matundu lane spring valley, westlands, nairobi",11350000.0,11350000.0,1.5,7850000.0,7850000.0,134
+"muthangari dr nairobi, westlands, nairobi",26666666.666666668,24600000.0,3.0,8027777.777777777,8133333.333333333,135
+"muthangari dr, westlands, nairobi",24400000.0,24400000.0,3.0,8133333.333333333,8133333.333333333,136
+"pqqj+m66 muthangari dr, westlands, nairobi",24400000.0,24400000.0,3.0,8133333.333333333,8133333.333333333,137
+"ongata rongai, nairobi",24960000.0,38000000.0,3.0,8320000.0,12666666.666666666,138
+"kiambu rd kiambu, runda, nairobi",35000000.0,35000000.0,4.0,8750000.0,8750000.0,139
+"njathaini rd ke, runda, nairobi",35000000.0,35000000.0,4.0,8750000.0,8750000.0,140
+"njathaini rd ke, kiambu road, nairobi",35000000.0,35000000.0,4.0,8750000.0,8750000.0,141
+"zimmerman, mirema, nairobi",35000000.0,35000000.0,4.0,8750000.0,8750000.0,142
+"school ln spring valley, westlands, nairobi",8911333.333333334,7749000.0,1.0,8911333.333333334,7749000.0,143
+"pq4h+8mc elgeyo rd, kilimani, nairobi",42500000.0,42500000.0,4.0,10625000.0,10625000.0,144

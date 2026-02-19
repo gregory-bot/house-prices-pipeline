@@ -55,7 +55,7 @@ Here's a breakdown of the key files and directories in this repository:
 | **Requirements** |
 | [`requirements.txt`](./requirements.txt) | A list of Python libraries required to run the project's scripts. |
 
-## 🛠️ How to Use
+##  How to Use
 
 Follow these steps to run the pipeline yourself.
 

@@ -158,7 +158,7 @@ The final outputs can be used for:
 
 ##  Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/mainamuragev/nairobi_property_pricing/issues) if you have ideas on how to improve the parsing logic, add new data sources, or enhance the visualizations.
+Contributions, issues, and feature requests are welcome! if you have ideas on how to improve the parsing logic, add new data sources, or enhance the visualizations.
 
 ##  License
 

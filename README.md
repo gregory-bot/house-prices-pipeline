@@ -1,11 +1,85 @@
+```markdown
 # Nairobi Property Pricing Project
 
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-streamlit-app-url)  <!-- Replace with deployed URL -->
 
-A complete data pipeline for scraping, cleaning, enriching, and analyzing property listings in Nairobi. This project transforms raw web data into actionable insights, including price normalization, bedroom extraction, and the creation of an interactive affordability map.
+A complete data pipeline for scraping, cleaning, enriching, and **predicting** property prices in Nairobi. This project extends the original analysis with machine learning models and interactive tools for investors, tenants, and analysts.
 
-##  Overview
+## 🚀 New Features
+
+- **Machine Learning Price Prediction**: Trained a Random Forest model (MAE = **KES 4.8M**) to estimate property prices based on location and bedrooms.
+- **Interactive Web App**: [`app.py`](app.py) – Enter details and get an estimated price with a realistic range.
+- **Market Dashboard**: [`dashboard.py`](dashboard.py) – Filterable charts for median prices, monthly trends, affordability, and market segments.
+- **Feature Importance Analysis**: Identified top price drivers – bedroom count and premium locations like Westlands, Loresho, and Kiambu Road.
+
+## 📊 Modeling Performance
+
+| Model | MAE (KES) | RMSE (KES) | R² |
+|-------|-----------|------------|-----|
+| Linear Regression | 5,669,566 | 8,339,069 | 0.240 |
+| Random Forest | **4,801,158** | **8,011,117** | **0.299** |
+
+**Random Forest improved MAE by 15.3%**.
+
+![Feature Importance](feature_importance_top5.png)
+*Top 5 price drivers from the Random Forest model.*
+
+## 🖥️ Interactive Apps
+
+After installing dependencies (`pip install -r requirements.txt`), run:
+
+**Price Predictor**
+```bash
+streamlit run app.py
+```
+**Market Dashboard**
+```bash
+streamlit run dashboard.py
+```
+
+## 📦 Updated Repository Structure
+
+| File/Directory | Description |
+| :--- | :--- |
+| **Original Pipeline** | |
+| `scrape_listings.py` | Web scraper for raw listings |
+| `clean_properties.py` | Cleans and normalizes data |
+| `parser.py` | Extracts bedroom counts from text |
+| `prepare_properties.py` | Orchestrates cleaning & enrichment |
+| `build_summary.py` | Generates location summaries |
+| `map_nairobi.py` | Creates interactive affordability map |
+| `eda.py` | Exploratory analysis & charts |
+| `audit_data.py` | Data quality checks |
+| **New Modeling & Apps** | |
+| `train_random_forest.py` | Trains and evaluates Random Forest model |
+| `model.pkl` | Saved trained model |
+| `app.py` | Streamlit price prediction app |
+| `dashboard.py` | Streamlit market dashboard |
+| `feature_importance_top5.png` | Plot of top price drivers |
+| **Data Files** | |
+| `all_raw_listings.csv` | Raw scraped data |
+| `cleaned_properties.csv` | Cleaned dataset with price_normalized |
+| `location_summary_clean.csv` | Aggregated location stats |
+| `nairobi_affordability_map.html` | Interactive map |
+| ... (other data files remain) |
+
+## 📈 Dashboard Preview
+
+*(Add screenshots of your dashboard here if desired)*
+
+## 🔮 Next Steps
+
+- Deploy apps online via Streamlit Cloud.
+- Incorporate additional features (property size, amenities) for better accuracy.
+- Add time-series forecasting for market trends.
+
+---
+
+*The rest of the original README follows:*
+
+## Overview
 
 This project automates the collection and processing of Nairobi real estate data. It is designed to answer key questions like: "What is the average rent per bedroom in different areas?" and "Where are the most affordable neighborhoods based on my budget?".
 
@@ -15,7 +89,7 @@ The pipeline consists of several stages:
 3.  **Enrichment**: Calculating affordability metrics like price per bedroom.
 4.  **Analysis & Visualization**: Generating location-based summaries and an interactive map.
 
-##  Key Features
+## Key Features
 
 *   **Automated Data Pipeline**: A series of Python scripts that handle the entire data workflow from `scrape` to `analyze`.
 *   **Intelligent Bedroom Parsing**: Extracts bedroom counts from unstructured text (e.g., "2br", "2 bedroom", "2 bed") using the `parser.py` module.
@@ -24,7 +98,7 @@ The pipeline consists of several stages:
 *   **Location Summaries**: Aggregates data by area to generate summary statistics like average rent and bedroom counts (`location_summary_clean.csv`).
 *   **Interactive Mapping**: Visualizes property data on a map of Nairobi County (`nairobi_affordability_map.html`), allowing for geographic exploration of affordability.
 
-##  Visualizations
+## Visualizations
 
 ### Interactive Affordability Map
 ![Affordability Map](https://github.com/mainamuragev/nairobi_property_pricing/raw/main/docs/images/affordability_map.png)
@@ -42,7 +116,8 @@ The pipeline consists of several stages:
 **Market Segments**
 ![Tier Breakdown](https://github.com/mainamuragev/nairobi_property_pricing/raw/main/docs/images/tier_breakdown.png)
 *Figure 4: Proportion of affordable, mid-range, and premium locations.*
-###  Full EDA Gallery
+
+### Full EDA Gallery
 Click on any thumbnail to view the full-size chart.
 
 | | | |
@@ -51,36 +126,7 @@ Click on any thumbnail to view the full-size chart.
 | [![Price per Bedroom](charts/04_price_per_bedroom.png)](charts/04_price_per_bedroom.png) | [![Rank vs Price](charts/05_rank_vs_price_scatter.png)](charts/05_rank_vs_price_scatter.png) | [![Avg vs Median Gap](charts/06_avg_vs_median_gap.png)](charts/06_avg_vs_median_gap.png) |
 | [![Tier Breakdown](charts/07_tier_breakdown.png)](charts/07_tier_breakdown.png) | [![Correlation Heatmap](charts/08_correlation_heatmap.png)](charts/08_correlation_heatmap.png) | [![Full Price Ranking](charts/09_full_price_ranking.png)](charts/09_full_price_ranking.png) |
 
-### Repository Structure
-Here's a breakdown of the key files and directories in this repository:
-| File/Directory | Description |
-| :--- | :--- |
-| **Data Files** |
-| [`all_raw_listings.csv`](./all_raw_listings.csv) | The initial, unprocessed dataset scraped from the web. Contains raw text and prices. |
-| [`cleaned_properties.csv`](./cleaned_properties.csv) | The dataset after running the cleaning and parsing scripts. Prices are normalized, and bedroom counts are extracted. |
-| [`location_summary.csv`](./location_summary.csv) | A preliminary summary of properties grouped by location. |
-| [`location_summary_clean.csv`](./location_summary_clean.csv) | The final, cleaned location summary with key statistics (e.g., average price, average bedrooms, count of listings). |
-| [`nairobi_county.geojson`](./nairobi_county.geojson) | Geographic boundary file for Nairobi County, used for creating maps. |
-| [`nairobi_affordability_map.html`](./nairobi_affordability_map.html) | An interactive HTML map visualizing property affordability across Nairobi. |
-| [`nairobi_county_map.html`](./nairobi_county_map.html) | A base map of Nairobi County boundaries. |
-| **Python Scripts** |
-| [`scrape_listings.py`](./scrape_listings.py) | The web scraping script. It collects raw property data and saves it to `all_raw_listings.csv`. |
-| [`nairobi_property_scraper_v2.py`](./nairobi_property_scraper_v2.py) | An updated or alternative version of the scraper. |
-| [`clean_properties.py`](./clean_properties.py) | Cleans the raw data, handles missing values, and standardizes formats. |
-| [`parser.py`](./parser.py) | Contains the core logic for extracting bedroom counts from titles and URLs. |
-| [`prepare_properties.py`](./prepare_properties.py) | Orchestrates the cleaning, parsing, and enrichment process to create `cleaned_properties.csv`. |
-| [`build_summary.py`](./build_summary.py) | Aggregates the cleaned data to create location-based summaries. |
-| [`eda.py`](./eda.py) | A script for performing Exploratory Data Analysis, generating initial insights and statistics. It saves charts to the `charts/` folder. |
-| [`map_nairobi.py`](./map_nairobi.py) | Generates the interactive affordability map (`nairobi_affordability_map.html`). |
-| [`audit_data.py`](./audit_data.py) | A utility script to check the quality and integrity of the data files. |
-| **Documentation** |
-| [`README.md`](./README.md) | This file. |
-| [`data_dictionary.md`](./data_dictionary.md) | A detailed explanation of each column in the datasets. |
-| **Visual Outputs** |
-| [`charts/`](./charts/) | Folder containing nine EDA charts generated by `eda.py`. |
-| [`docs/images/`](./docs/images/) | Folder containing images used in this README. |
-
-##  How to Use
+## How to Use
 
 Follow these steps to run the pipeline yourself.
 
@@ -144,11 +190,25 @@ The typical workflow is sequential. You can run each script as you progress.
     ```
     *   **Output:** Nine charts saved in the `charts/` folder.
 
+### Running the New Apps
+
+After completing the pipeline, you can launch the interactive tools:
+
+**Price Predictor**
+```bash
+streamlit run app.py
+```
+
+**Market Dashboard**
+```bash
+streamlit run dashboard.py
+```
+
 ## Data Dictionary
 
 For a full description of all columns found in the CSV files (e.g., `price_per_bedroom`, `bedrooms`, `location`), please refer to the **[`data_dictionary.md`](./data_dictionary.md)** file.
 
-##  Insights & Potential Use Cases
+## Insights & Potential Use Cases
 
 The final outputs can be used for:
 *   **Market Analysis**: Identifying overpriced or undervalued neighborhoods.
@@ -156,16 +216,26 @@ The final outputs can be used for:
 *   **Personal House Hunting**: Using the interactive map to quickly find areas within a specific budget.
 *   **Journalism & Research**: Supporting stories or studies on housing affordability in Nairobi.
 
-##  Contributing
+## Contributing
 
-Contributions, issues, and feature requests are welcome! if you have ideas on how to improve the parsing logic, add new data sources, or enhance the visualizations.
+Contributions, issues, and feature requests are welcome! If you have ideas on how to improve the parsing logic, add new data sources, or enhance the visualizations, feel free to open an issue or pull request.
 
-##  License
+## License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-##  Author
+## Author
 
 **mainamuragev**
+- GitHub: [@mainamuragev](https://github.com/mainamuragev)
+```
 
-*   GitHub: [@mainamuragev](https://github.com/mainamuragev)
+Now, **save and push**:
+
+```bash
+git add README.md
+git commit -m "Update README with new ML models, apps, and dashboard"
+git push origin main
+```
+
+

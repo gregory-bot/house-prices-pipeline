@@ -66,7 +66,7 @@ streamlit run dashboard.py
 
 ##  Dashboard Preview
 
-*(Add screenshots of your dashboard here if desired)*
+*()*
 
 ##  Next Steps
 

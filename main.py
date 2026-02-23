@@ -1,21 +1,25 @@
+
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from typing import List, Optional
 import asyncpg
 import os
 import math
 
 app = FastAPI()
+
+# Enable CORS for frontend requests
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Or specify ["http://localhost:8080"]
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 @app.get("/")
 async def root():
     return {"message": "Welcome to the Nairobi Property API!"}
-
-from fastapi import FastAPI, HTTPException
-from typing import List, Optional
-import asyncpg
-import os
-import math
-
-app = FastAPI()
 
 
 DB_CONFIG = {

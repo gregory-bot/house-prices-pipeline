@@ -17,8 +17,19 @@ def clean_properties(path):
         df['bedrooms'] = df['bedrooms'].fillna(df['bedrooms'].median())
         print(f"Filled {missing_bedrooms} missing bedroom values with median")
 
+
     # Standardize location names
     df['location'] = df['location'].str.strip().str.lower()
+
+    # Extract numeric value from price column and create price_no
+    import re
+    def extract_price(price_str):
+        if pd.isna(price_str):
+            return pd.NA
+        # Remove non-digit characters
+        price_digits = re.sub(r'[^0-9]', '', str(price_str))
+        return int(price_digits) if price_digits else pd.NA
+    df['price_no'] = df['price'].apply(extract_price)
 
     # Remove extreme outliers (price)
     Q1 = df['price_no'].quantile(0.25)

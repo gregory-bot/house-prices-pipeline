@@ -60,6 +60,7 @@ def prepare_properties(path):
     return df
 
 if __name__ == "__main__":
+
     # Allow passing filename as argument, default to all_raw_listings.csv
     filename = sys.argv[1] if len(sys.argv) > 1 else "all_raw_listings.csv"
     df = prepare_properties(filename)
@@ -69,22 +70,81 @@ if __name__ == "__main__":
 
     # Save enriched dataset with all original + new columns
     df.to_csv("nairobi_properties_full.csv", index=False)
-
     print("\nSaved enriched dataset to nairobi_properties_full.csv")
 
-# After df = prepare_properties(filename)
+    # Location summary (average price per location)
+    location_summary = df.groupby("location").agg(
+        avg_price=("price_normalized", "mean"),
+        avg_price_per_bedroom=("price_per_bedroom", "mean"),
+        count=("url", "count")
+    ).reset_index()
+    location_summary.to_csv("location_summary.csv", index=False)
 
-# Save enriched dataset
-df.to_csv("nairobi_properties_full.csv", index=False)
+    # Properties with summary (merge back averages into each row)
+    df_with_summary = df.merge(location_summary, on="location", how="left")
+    df_with_summary.to_csv("properties_with_summary.csv", index=False)
 
-# Location summary (average price per location)
-location_summary = df.groupby("location").agg(
-    avg_price=("price_normalized", "mean"),
-    avg_price_per_bedroom=("price_per_bedroom", "mean"),
-    count=("url", "count")
-).reset_index()
-location_summary.to_csv("location_summary.csv", index=False)
+    # Upload enriched data to PostgreSQL
+    import psycopg2
+    def upload_to_postgres(csv_path):
+        import os
+        conn = psycopg2.connect(
+            host=os.environ.get('DB_HOST'),
+            port=int(os.environ.get('DB_PORT', 5432)),
+            user=os.environ.get('DB_USER'),
+            password=os.environ.get('DB_PASSWORD'),
+            dbname=os.environ.get('DB_NAME')
+        )
+        cur = conn.cursor()
+        df = pd.read_csv(csv_path)
+        table_name = "nairobi_properties"
+        # Drop table if exists, then create with correct columns
+        cur.execute(f"DROP TABLE IF EXISTS {table_name}")
+        conn.commit()
+        cur.execute(f"""
+            CREATE TABLE {table_name} (
+                source TEXT,
+                listing_type TEXT,
+                title TEXT,
+                price TEXT,
+                location TEXT,
+                bedrooms FLOAT,
+                url TEXT,
+                scraped_at TEXT,
+                bedroom_label TEXT,
+                price_no FLOAT,
+                price_normalized FLOAT,
+                price_per_bedroom FLOAT
+            )
+        """)
+        conn.commit()
+        # Clear table before inserting new data
+        cur.execute(f"DELETE FROM {table_name}")
+        conn.commit()
+        # Insert data
+        for _, row in df.iterrows():
+            values = [
+                row.get('source'),
+                row.get('listing_type'),
+                row.get('title'),
+                row.get('price'),
+                row.get('location'),
+                row.get('bedrooms'),
+                row.get('url'),
+                row.get('scraped_at'),
+                row.get('bedroom_label'),
+                row.get('price_no'),
+                row.get('price_normalized'),
+                row.get('price_per_bedroom')
+            ]
+            cur.execute(f"""
+                INSERT INTO {table_name} (source, listing_type, title, price, location, bedrooms, url, scraped_at, bedroom_label, price_no, price_normalized, price_per_bedroom)
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+            """, values)
+        conn.commit()
+        cur.close()
+        conn.close()
+        print("Uploaded enriched data to PostgreSQL.")
 
-# Properties with summary (merge back averages into each row)
-df_with_summary = df.merge(location_summary, on="location", how="left")
-df_with_summary.to_csv("properties_with_summary.csv", index=False)
+    # Call upload function after saving enriched CSV
+    upload_to_postgres("nairobi_properties_full.csv")
